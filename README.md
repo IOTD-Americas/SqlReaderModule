@@ -1,6 +1,6 @@
 # IoT Edge Module that reads from Sql Server using a static sql query
 
-This module use the module twin settings as follows:
+This module use Environmental variables, you can set them in the deployment manifest. Deplyment manifest extract:
 
 ```json
 "SqlReaderModule": {
